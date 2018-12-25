@@ -2,6 +2,11 @@
 <head>
 <title>FirstPage</title>
 <style>
+video {
+  width: 100%;
+  height: auto;
+}
+
 .circle{ 
 height: 150;  width: 150; border: 1px solid #F0F8FF; border-radius: 50%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);}
 </style>
@@ -19,10 +24,11 @@ height: 150;  width: 150; border: 1px solid #F0F8FF; border-radius: 50%; box-sha
 	<a href="PageFirst.htm" class="w3-bar-item w3-button">FirstPage</a>
     	<a href="Profile.htm" class="w3-bar-item w3-button">Profile</a>
     	<a href="VideoEdit.htm" class="w3-bar-item w3-button">VideoEdit</a>
-	<a href="Movie.htm" class="w3-bar-item w3-button">Movie</a>
+	<a href="MusicRoom.htm" class="w3-bar-item w3-button">MusicRoom</a>
 	<a href="https://github.com/fulkkie24" class="w3-bar-item w3-button">GitHub</a>
 	<a href="https://www.youtube.com/watch?v=d_ymdL0C9h0&start_radio=1&list=RDd_ymdL0C9h0" class="w3-bar-item w3-button">YoutubeMusic</a>
-	<a href="https://thaiall.github.io/tech100/training61.htm?fbclid=IwAR1hraEqzyhv_tZzPhm0SLqMdKPpCKpx8jdq3P7NPIdYrey2h5TjcKLyhUo" 		class="w3-bar-item w3-button">Team</a>
+	<a href="https://thaiall.github.io/tech100/training61.htm?fbclid=IwAR1hraEqzyhv_tZzPhm0SLqMdKPpCKpx8jdq3P7NPIdYrey2h5TjcKLyhUo" 
+	class="w3-bar-item w3-button">Team</a>
 	</div>
 	</div>
 	</div>
@@ -39,10 +45,12 @@ height: 150;  width: 150; border: 1px solid #F0F8FF; border-radius: 50%; box-sha
     	<div class="w3-half w3-container">
    	 <p><h4><font face = "kanitlight" size = "3" color = "Green" > สวัสดีทุกคนที่เข้ามาชมเว็บของผม เรื่องแรกจะมาพูดถึงการทำ Web ของผมในรูปนี้ว่าการเขียนเว็บในรูปนี้มีกี่หน้าและอะไรกันบ้างนะแน่นอนว่าข้อนข้างลำบากหามาทำใหม่ทั้งหมดแต่ที่อยากนำเสนอนั้นคือ กดไปที่เมนูบนซ้ายสิ</font></h4> </p>
 	</div>
-	<h4 align = 'top right'></br><font face = "kanitlight" size = "3.5" color = "Green" > จะเห็นได้ว่ามี Taps เมนูให้เลือกไปหมวดหมูต่างๆได้เลยทีเดียวเชียวครับผม หวังว่าจะสนุกกับการท่องไปในเว็บของผมนะครับ</font></h4>
+	<p><h4 align = 'top right'></br><font face = "kanitlight" size = "3.5" color = "Green" > จะเห็นได้ว่ามี Taps เมนูให้เลือกไปหมวดหมูต่างๆได้เลยทีเดียวเชียวครับผม หวังว่าจะสนุกกับการท่องไปในเว็บของผม หากมีทางเว็บของเรามีขอบกพร่องประการใดชี้แจงและแนะนำมาได้ทุกเมื่อครับ ทางเราจะมีการปรับปรุงตามคำแนะนำของผูเชี่ยมชม</font></h4></p>
 	</div>
 	</div>
-	<h4 align = 'top right'></br><font face = "kanitlight" size = "3.5" color = "red" > ทางเว็บของเราคุณสา</font></h4>
+	<center><img src="image/04.jpg" style="width:300" ></center>
+	<h4 align = 'top right'></br><font face = "kanitlight" size = "3.5" color = "black" > ส่วนตัวผมแล้วอยากจะแจะนำเว็บทำให้ผมได้มาถึงจุดๆนี้ได้ นั้นคือ <a href="https://www.w3schools.com/">W3Schools </a> เป็นเว็บที่ดีค่อยแนะนำการใช้วิธีต่างๆ ในหลายๆภาษา เช่น HTML PHP JAVASCRIPT SQL เป็นต้นรวมถึงการใช้ CSS ในรูปแบบ HOW TO ที่เข้าใจง่ายสั้นๆได้ใจความอีกด้วย ยังไม่พอทางเว็บได้แจก CSS ให้มาใช้โดยที่เราไม่ต้องไปนั่งเสียเวลาอีกด้วยละครับดีใช่ไหมล่ะ?
+	</a></font></h4>
 	</div>
 	</div>
 	<div class="w3-container w3-half w3-blue">
@@ -50,12 +58,16 @@ height: 150;  width: 150; border: 1px solid #F0F8FF; border-radius: 50%; box-sha
 	<div class="w3-panel w3-pale-blue w3-leftbar w3-border-blue">
 	<div class="w3-panel w3-topbar w3-bottombar w3-border-red w3-pale-red">
 	<p><center><h4><font face = "itimregular" size = "5"  >เรื่องที่ผมอยากแนะนำนั้น คือ VideoEdit หรือการตัดต่อวิดีโอ จากโปรแกรม After Effect</font></h4></p>
-	<p><video width="540" height="360" controls="controls"><source src="Video/Adobe After Effect CC.mp4" type="video/mp4" /></video></p>
+	
+	<video  controls="controls"><source src="Video/Adobe After Effect CC.mp4" type="video/mp4" /></video></p>
 	</div>
 	<h4><font face = "kanitlight" size = "4" color = "Gray" > มาทำความรู้จักกับโปรแกรม AFFER EFFECTS</font></h4>
 	<h4><font face = "kanitlight" size = "3" color = "Gray" >After Effect เป็นโปรแกรมที่ใส่ Effect ให้กับ ภาพยนตร์ ในขั้นตอนการตัดต่อ ไฟล์ที่นำเข้ามาใช้ในโปรแกรมนี้ได้เกือบทุกชนิดได้ทั้งภาพนิ่งภาพเคลื่อนไหว ไฟล์เสียง ยิ่งถ้าเป็นการทำมาจากโปรแกรม 3d แล้วมาทำต่อที่ After Effect จะทำให้งานสมบูรณ์ยิ่งขึ้น โดยที่สามารถจะนำไฟล์ทั้งหลายเหล่านี้มาใช้งานร่วมกัน  เพื่อให้ได้งานที่เป็นภาพเคลื่อนไหวชิ้นใหม่ออกมาจากโปรแกรม  After  Effects อย่างสมบูรณ์
 	หนังสือเล่มนี้เหมาะสมสำหรับผู้ที่สร้างงาน ด้วยโปรแกรม  After  Effects  เช่น   วิธีการลงโปรแกรม   เครื่องมือพื้นฐาน   ขั้นตอนการทำงาน    ทำ Title ให้ค่อยๆโผล่เหมือนเรากำลังวาด   การทำตัวหนังสือให้อยู่ในกรอบ     การทำ  effect  ระเบิดบึ้ม       การทำดาบสตาเวอ  ซึ่งเนื้อหาจะอธิบายในรูปแบบ Workshop เป็นหลักเพื่อนำเสนอในการสร้างชิ้นงาน และสามารถนำไปใช้ได้จริง
-	สุดท้ายนี้หวังว่าหนังสือเล่มนี้มีส่วนช่วยใน การพัฒนาความรู้และทักษะในการสร้างชิ้นงาน ตลอดจนเทคนิคต่างๆ ไปใช้ในการฝึกฝนเพื่อพัฒนาความสามารถในการสร้างงาน Effect ระดับมืออาชีพ</font></h4>
+	สุดท้ายนี้หวังว่าหนังสือเล่มนี้มีส่วนช่วยใน การพัฒนาความรู้และทักษะในการสร้างชิ้นงาน ตลอดจนเทคนิคต่างๆ ไปใช้ในการฝึกฝนเพื่อพัฒนาความสามารถในการสร้างงาน Effect ระดับมืออาชีพ.....
+	<br><br><br><br><br><br><br><br>
+	
+	</font></h4>
 	</div>
 	</div>
 	</h5>
@@ -65,12 +77,18 @@ height: 150;  width: 150; border: 1px solid #F0F8FF; border-radius: 50%; box-sha
 
 
 
-<br><!-- footer -->
-<center><br><div class="w3-bar">
-  <a href="https://www.facebook.com/Wachirasak.kung" class="w3-button">Facebook</a>
-  <a href="https://www.instagram.com/wachirasak_kung" class="w3-button">IG</a>
-  <a href="https://www.youtube.com" class="w3-button">Youtube</a>
-  </div>
+	<br><!-- footer -->
+	<br><h4 class="w3-center w3-animate-top">
+	<div>
+	<p><font face = "Angsana New" size = "7"> By: Wachirasak</font></p>
+	<img class="circle" src="image/02.jpg" style="width:auto" ></h4>
+	</div>
+	<h4 class="w3-center w3-animate-top">
+	<center><br><div class="w3-container w3-khaki ">
+	<a href="https://www.facebook.com/Wachirasak.kung" class="w3-button">Facebook</a>
+  	<a href="https://www.instagram.com/wachirasak_kung" class="w3-button">IG</a>
+  	<a href="https://www.youtube.com" class="w3-button">Youtube</a>
+  	</div>
 
 </body>
 </html>
