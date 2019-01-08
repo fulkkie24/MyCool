@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
   <title>PageFirst</title>
-  <meta charset="utf-8">
+<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="js\jquery.js"></script>
+  <script src="js\Paper2.js"></script>
   <script src="js\bootstrap.min.js"></script>
 <link rel="stylesheet" href="css/S1.css">
+
 <link rel="stylesheet" href="css/stylesheet.css">
+
   <style>
 video {
   width: 100%;
@@ -62,8 +65,24 @@ video {
 
     <div class="col-sm-9">
 
-      <h4><font face = "kanitlight" size = "6" ><small>เนื้อหาที่แนะนำ</small></font></h4>
-      <hr>
+      <h4><font face = "kanitlight" size = "6" ><small >เนื้อหาที่แนะนำ</small></font<div class="col-sm-2 sidenav">
+     	<button type="button" class="btn btn-info collapsed" data-target="#demo" data-toggle="collapse" aria-expanded="false">MusicOfline</button>
+	<div id="demo" class="collapse" aria-expanded="false" style="height: 0px;">
+	<audio id="myAudio" controls  loop autoplay>
+	<source src="sound/Remixaudio2.mp3" type="audio/mpeg">
+  	</audio>
+	
+	</div>
+	<p id="demo"></p>
+
+	<script>
+	function myFunction() {
+ 	 var x = document.getElementById("myAudio").autoplay;
+  	document.getElementById("demo").innerHTML = x;
+	}
+	</script>
+	</h4>
+	<hr>
       <h2><font face = "itimregular">สวัสดีครับผม เนื้อหาในหน้านี้จะบอกถึง ข้อมูลต่อไปนี้</h2>
        <h5><span class="label label-danger">แนะนำ</span></font></h5><br>
 	<h4 class="w3-center w3-animate-top"><img class="circle" src="image\FK.jpg" style="width:25%"></h4>
@@ -102,7 +121,7 @@ video {
 	
    
 
-<footer class="container-fluid">
+	<footer class="container-fluid">
 	<h6 class="w3-center w3-animate-top">
 	<p><font face = "kanitlight" size = "6" >ติดต่อที่นี้.... </font></p>
 	<a href="https://www.facebook.com/Wachirasak.kung" ><p class="w3-button">Facebook</p></a>
